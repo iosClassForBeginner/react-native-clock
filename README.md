@@ -7,43 +7,8 @@
 code 
 ★ It's preferable to write following code yourself. It will help you to understand code more.
 
-``` Style sheet
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center'
-  },
-  imageBackground: {
-    flex: 1,
-    width: '100%',
-    justifyContent: 'space-around',
-    alignItems: 'center'
-  },
-  btnContainer: {
-    width:200,
-    flex: 1,
-  },
-  timer: {
-    flex: 1,
-    backgroundColor: 'transparent',
-    fontSize: 30,
-    marginTop: 150,
-    alignSelf: 'center'
-  },
-  botton: {
-    color: "#841584",
-    marginTop: 50,
-    height: 100,
-    borderRadius: 30
-  }
-});
+``` App.js
 
-
-
-``` code
-```
 import React from 'react';
 import { StyleSheet, Text, View, Image} from 'react-native';
  //add momentjs to our app
@@ -118,3 +83,34 @@ export default class App extends React.Component {
   }
 }
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  imageBackground: {
+    flex: 1,
+    width: '100%',
+    justifyContent: 'space-around',
+    alignItems: 'center'
+  },
+  btnContainer: {
+    width:200,
+    flex: 1,
+  },
+  timer: {
+    flex: 1,
+    backgroundColor: 'transparent',
+    fontSize: 30,
+    marginTop: 150,
+    alignSelf: 'center'
+  },
+  botton: {
+    color: "#841584",
+    marginTop: 50,
+    height: 100,
+    borderRadius: 30
+  }
+});
