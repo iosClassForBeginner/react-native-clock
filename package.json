@@ -1,0 +1,18 @@
+{
+  "name": "clock",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "apeman-react-clock": "^3.0.3",
+    "expo": "^21.0.0",
+    "moment": "^2.19.1",
+    "react": "16.0.0-alpha.12",
+    "react-moment": "^0.6.5",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-21.0.2.tar.gz",
+    "react-native-analog-clock": "^0.3.1",
+    "react-native-button": "^2.1.0"
+  }
+}
