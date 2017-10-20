@@ -7,6 +7,10 @@
 code 
 ★ It's preferable to write following code yourself. It will help you to understand code more.
 
+run tis commend in terminal for installing these packages 
+
+npm i --save moment react-native-button
+
 ``` App.js
 
 import React from 'react';
